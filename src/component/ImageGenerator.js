@@ -16,7 +16,7 @@ function ImageGenerator() {
    if(imageDesc && num && sizeType){
     setWel(false)
       setLoader(true)
-      axios.post(`http://localhost:5003/postDetails`, details)
+      axios.post(`https://image-generator-now.onrender.com/postDetails`, details)
       .then((res) => {
         if (res.data.status) {
             setLoader(false)
