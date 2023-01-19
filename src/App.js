@@ -1,5 +1,4 @@
 import { Route, Routes } from 'react-router-dom';
-import Client from './component/Client';
 import ImageGenerator from './component/ImageGenerator';
 
 
